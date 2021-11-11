@@ -8,6 +8,15 @@
   </div>
 </template>
 
+<script>
+export default {
+  name: "App",
+  metaInfo: {
+    titleTemplate: "%s | Awesome Template",
+  },
+};
+</script>
+
 <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
