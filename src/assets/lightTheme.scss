@@ -1,0 +1,28 @@
+.light-theme {
+  body {
+    background: $secondary;
+    color: $info;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    color: $info;
+  }
+
+  .navbar {
+    background-color: $light;
+
+    .navbar-brand,
+    .nav-item > .nav-link {
+      opacity: 0.85;
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}

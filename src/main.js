@@ -7,6 +7,7 @@ import VueAxios from "vue-axios";
 import Meta from "vue-meta";
 import customAxios from "./utils/custom-axios";
 import "./utils/filters";
+import "./styles.scss";
 
 Vue.use(BootstrapVue);
 Vue.use(VueAxios, customAxios);
